@@ -17,5 +17,10 @@ pipeline {
                 echo 'Deploying automatically'
             }
         }
+ stage('Maintain') {
+            steps {
+                echo 'Maintaining automatically'
+            }
+        }
     }
 }
